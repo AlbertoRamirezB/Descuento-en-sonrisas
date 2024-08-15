@@ -12,7 +12,6 @@
             margin: 0;
             text-align: center;
         }
-
         .container {
             position: relative;
             width: 90%;
@@ -22,18 +21,15 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
         .image-container {
             position: relative;
             width: 100%;
         }
-
         .image-container img {
             width: 100%;
             height: auto;
             border-radius: 10px;
         }
-
         .speech-bubble {
             position: absolute;
             background: #fff;
@@ -45,31 +41,26 @@
             -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
         }
-
         .speech-bubble.left {
             top: 390px;
             left: 600px;;
         }
-
         .speech-bubble.right {
             top: 400px;
             right: 450px;
             -webkit-transform: translate(50%, -50%);
             transform: translate(50%, -50%);
         }
-
         .instagram-icon {
             color: #C13584;
             font-size: 18px;
             vertical-align: middle;
             margin-right: 5px;
         }
-
         .instagram-link {
             color: #003cff;
             text-decoration: none;
         }
-
         .square-container {
             margin-top: 5px;
             background-color: #044e2d99;
@@ -82,7 +73,6 @@
             box-sizing: border-box;
             border: 1px solid #0b4a01;
         }
-
         @media (max-width: 500px) {
             .speech-bubble.left {
                 top: 35%;
@@ -90,19 +80,16 @@
                 -webkit-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
             }
-
             .speech-bubble.right {
                 top: 36%;
                 right: 60%;
                 -webkit-transform: translate(50%, -50%);
                 transform: translate(50%, -50%);
             }
-
             .square-container {
                 font-size: 10px;
             }
         }
-
         @media (max-width: 480px) {
             .speech-bubble.left,
             .speech-bubble.right {
@@ -110,21 +97,17 @@
                 -webkit-transform: translate(0, -50%);
                 transform: translate(0, -50%);
             }
-
              .speech-bubble.left {
                 top: 32%;
                 left: 65%;
             } 
-
             .speech-bubble.right {
                 right: 45%;
             }
-
             .square-container {
                 font-size: 10px;
             }
         }
-
     </style>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
@@ -133,18 +116,15 @@
 <div class="container">
     <div class="image-container">
         <img src="foto.jpg">
-
         <div class="speech-bubble left">
             <i class="fab fa-instagram instagram-icon"></i>
             <a href="https://www.instagram.com/alberto.ramirezb_/" class="instagram-link">@alberto.ramirezb_</a>
         </div>
-
         <div class="speech-bubble right">
             <i class="fab fa-instagram instagram-icon"></i>
             <a href="https://www.instagram.com/davidmartinezzz___/" class="instagram-link">@davidmartinezzz___</a>
         </div>
     </div>
-
     <div class="square-container">
         <p><b>Que descuento ni que descuento...</b></p>
         <p><b>Pero ya que estás sigueme y te cuento.</b></p>   
