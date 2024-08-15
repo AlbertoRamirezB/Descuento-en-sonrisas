@@ -1,0 +1,54 @@
+# Crear el archivo HTML con la imagen de fondo y los enlaces posicionados
+html_content = '''
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen con Enlaces</title>
+    <style>
+        .container {
+            position: relative;
+            width: fit-content;
+            margin: auto;
+        }
+        .image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        .label {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 5px;
+            text-decoration: none;
+            border-radius: 5px;
+            color: black;
+            font-weight: bold;
+        }
+        .label1 {
+            top: 70%;
+            left: 30%;
+        }
+        .label2 {
+            top: 85%;
+            left: 60%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="document.jpg" alt="Imagen con enlaces" class="image">
+        <a href="https://www.instagram.com/davidmartinezzz" class="label label1">@davidmartinezzz</a>
+        <a href="https://www.instagram.com/alberto.ramirezzb" class="label label2">@alberto.ramirezzb</a>
+    </div>
+</body>
+</html>
+'''
+
+# Guardar el contenido HTML en un archivo
+file_path = '/mnt/data/imagen_con_enlaces.html'
+with open(file_path, 'w') as file:
+    file.write(html_content)
+
+file_path
